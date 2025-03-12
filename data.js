@@ -212,3 +212,6 @@ function showProducts() {
   document.getElementById("sum-total").innerText = totalSum;
 }
 showProducts();
+
+
+document.getElementById('year').textContent = new Date().getFullYear();
